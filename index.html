@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AuthorAI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#0D47A1',
+              'primary-focus': '#0B3A82',
+              'primary-content': '#FFFFFF',
+              'secondary': '#42A5F5',
+              'secondary-focus': '#1E88E5',
+              'secondary-content': '#FFFFFF',
+              'accent': '#FFC107',
+              'accent-focus': '#FFA000',
+              'accent-content': '#000000',
+              'neutral': '#121212',
+              'neutral-focus': '#212121',
+              'base-100': '#1E1E1E',
+              'base-200': '#2C2C2C',
+              'base-300': '#3A3A3A',
+              'base-content': '#E0E0E0',
+              'info': '#2196F3',
+              'success': '#4CAF50',
+              'warning': '#FF9800',
+              'error': '#F44336',
+            },
+          },
+        },
+      };
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "remarkable": "https://aistudiocdn.com/remarkable@^2.0.1",
+    "docx": "https://aistudiocdn.com/docx@^8.5.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-base-100 text-base-content">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

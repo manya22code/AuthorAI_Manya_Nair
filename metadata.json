@@ -1,0 +1,5 @@
+{
+  "name": "AuthorAI",
+  "description": "AuthorAI is an AI-powered web application that allows users to generate, refine, and export structured business documents like Word and PowerPoint files using the Gemini API.",
+  "requestFramePermissions": []
+}
